@@ -2,7 +2,7 @@ package util
 
 import java.io.File
 
-class FileReader() {
+class FileReader {
 
     companion object{
         fun readFileLineByLineToAListOfStrings(fileName: String): List<String> {
