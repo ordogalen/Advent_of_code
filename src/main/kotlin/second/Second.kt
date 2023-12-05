@@ -66,8 +66,3 @@ class Second(fileName: String) {
         }.sum()
     }
 }
-
-fun main() {
-    val second = Second("src/main/resources/gameList_real.txt")
-    println(second.secondPartSolver())
-}
